@@ -6,7 +6,7 @@ import diceBag from './diceBag';
 
 const App = () => {
   const [board, setBoard] = useState([]);
-  const [boardSize, setBoardSize] = useState('sixBySixDice');
+  const [boardSize, setBoardSize] = useState('fiveByFiveDice');
 
   useEffect(() => {
     setBoard(newBoard(diceBag.fiveByFiveDice));
